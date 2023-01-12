@@ -6,9 +6,7 @@ using namespace std;
 
 int main() {
     vector<float> rainfall;
-    float t;
-    float m;
-    float n;
+    float t, m, n;
     while (cin >> n) {
         rainfall.push_back(n);
     }
