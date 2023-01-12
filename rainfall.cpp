@@ -21,8 +21,6 @@ int main() {
         if (rainfall[i] > m)
             m = rainfall[i];
     }
-    // cout << "Average Hourly Rainfall: " << std::fixed << std::setprecision(2) << (t / rainfall.size()) << " hundreds of inches" << '\n';
-    // cout << "Heaviest Hourly Rainfall: " << m << " hundreds of inches" << '\n';
     cout << "| Hourly Rainfall | Inches in 100s |" << '\n';
     cout << "|:----------------|----------------|" << '\n';
     cout << "| Average         |     " << left << setw(10) << fixed << setprecision(2) << (t / rainfall.size()) << " |" << '\n';
